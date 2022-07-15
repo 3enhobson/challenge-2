@@ -1,0 +1,85 @@
+* {
+    /*border-style: dotted;
+    border-color: red; */
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: white;
+    color: gray;
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding: 5px 10px 5px 30px;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav li {
+    display: inline;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+#hero {
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    background-image: url(images/background.jpeg);
+    background-position: center center;
+
+}
+
+#hero h2 {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 40px 0 ;
+    padding: 0 10px 0 10px;
+    height: 30px;
+    background-color: white;
+}
+
+#AboutMe  {
+    display: flex;
+    padding: 20px;
+    
+}
+#AboutMe header  {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 20px;
+    border: 10px;
+    
+}
+
+#AboutMe #Bio  {
+    padding-left: 40px;
+    border-left: solid black 5px;
+}
+
+#AboutMe #Bio p  {
+    margin: 10px;
+}
