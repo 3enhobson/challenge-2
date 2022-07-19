@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="Assets/reset.css"> 
+    <link rel="stylesheet" href="Assets/reset.css">
     <link rel="stylesheet" href="Assets/style.css">
 </head>
 
 <body>
+    <!-- Very top section of the page-->
     <header id="header">
         <h1>
             Ben Hobson
@@ -19,59 +20,74 @@
         <Nav>
             <ul>
                 <li> <a href="#AboutMe">About Me</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#ContactMe">Contact Me</a></li>
                 <li><a href="">Resume</a></li>
             </ul>
         </Nav>
     </header>
 
+    <!--Section with background picture-->
     <section id="hero">
+        <img src="assets/images/IMG_3459.PNG" alt="Ben Hobson">
         <h2>
             Please Hire Me!
         </h2>
     </section>
 
+    <!--Section with all the content-->
     <main>
+        <!--Bio section-->
         <section id="AboutMe">
             <header>
-                <h2>
+                <h2 id="Title1" class="Sections">
                     About Me
                 </h2>
             </header>
             <div id="Bio">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint perferendis reiciendis dolorem
-                    accusantium error soluta quisquam! Rem eius voluptates, odit sed, dolorum amet vero impedit eos
-                    corrupti voluptatum inventore minima!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, maxime aut? Animi dolorum,
-                    cupiditate dolor voluptate quos doloremque autem adipisci fuga aliquid unde repellendus minus, quia
-                    dignissimos temporibus! Amet, commodi?
+                <p> My Name is Ben Hobson, I am a young professional hungry for new opportunities as a web developer.
+                    After falling in love with traveling, I am seeking a career in a feild that allows me to work remote. 
+                    I am currently enrolled in the UCLA Extension Coding Bootcamp and I am looking forward to developing 
+                    new skills that I will allow me to apply to jobs in a new industry.
                 </p>
             </div>
         </section>
+        <!--Section that includes projects that I have worked on-->
         <section id="Work">
             <header>
-                <h2>
+                <h2 id="Title2" class="Sections">
                     Work
                 </h2>
-                <div id="Bio">
-                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint perferendis reiciendis dolorem
-                        accusantium error soluta quisquam! Rem eius voluptates, odit sed, dolorum amet vero impedit eos
-                        corrupti voluptatum inventore minima!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, maxime aut? Animi dolorum,
-                        cupiditate dolor voluptate quos doloremque autem adipisci fuga aliquid unde repellendus minus, quia
-                        dignissimos temporibus! Amet, commodi?
-                    </p>
+            </header>
+            <section id="Projects">
+                <!--Project #1-->
+                <div class="Projects" id="Project1">
+                    <h3>Project 1</h3>
+                    <a href="https://3enhobson.github.io/challenge-1-horiseon/">Horiseon-Challenge-1</a>
+                        <div id="Horiseon"></div>
                 </div>
+                <!--Project #2-->
+                <div class="Projects">
+                    <h3>Project 2</h3>
+                </div>
+                <!--Project #3-->
+                <div class="Projects">
+                    <h3>Project 3</h3>
+                </div>
+               
+            </section>
         </section>
-
-
-
     </main>
+
+    <footer id="ContactMe">
+        <H2 id="Title3" class="Sections">Contact</H2>
+        <section id="FooterLinks">
+            <a class="contact" href="818.406.1210">818.406.1210</a>
+            <a class="contact" href="https://github.com/3enhobson">GitHub</a>
+            <a class="contact" href="https://www.linkedin.com/in/ben-hobson-79b13b165/">LinkedIn</a>
+            <a class="contact" href="https://twitter.com/3enhobson">Twitter</a>
+        </section>
+    </footer>
 </body>
 
 </html>

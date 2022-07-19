@@ -2,7 +2,11 @@
     /*border-style: dotted;
     border-color: red; */
 }
+html {
+    scroll-behavior: smooth;
+}
 
+/* Top of the Page*/
 #header {
     display: flex;
     justify-content: space-between;
@@ -40,15 +44,16 @@ nav li {
     margin: 5px;
     flex-wrap: wrap;
 }
-
+/*Section with backgrond pic*/
 #hero {
     height: 200px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: end;
     background-image: url(images/background.jpeg);
     background-position: center center;
-
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
 }
 
 #hero h2 {
@@ -60,18 +65,36 @@ nav li {
     background-color: white;
 }
 
+#hero img {
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 10px 10px 10px;
+}
+
 #AboutMe  {
     display: flex;
     padding: 20px;
     
 }
-#AboutMe header  {
-    width: 30%;
+
+.Sections {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 40px;
-    padding-top: 20px;
-    border: 10px;
+    justify-content: center;
+    width: 270px;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+}
+
+#Title1  {
+    /*display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 100px;
+    padding: 20px;
+    align-items: center;*/
     
 }
 
@@ -82,4 +105,52 @@ nav li {
 
 #AboutMe #Bio p  {
     margin: 10px;
+}
+
+#Work {
+    display: flex;
+    
+    padding: 20px;
+}
+
+#Projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 40px;
+    border-left: solid black 5px;
+    
+}
+
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 300px;
+    height: 250px;
+    border: solid black 5px;
+}
+
+#Work #Projects #Project1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(assets/images/Horiseon.jpeg);
+}
+ 
+footer {
+    display: flex;
+    padding: 20px;
+}
+
+footer #FooterLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    border-left: solid black 5px;
+    width: 800px;
 }
