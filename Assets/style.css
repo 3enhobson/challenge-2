@@ -20,7 +20,6 @@ html {
 h1 {
     padding: 5px 10px 5px 30px;
     background-color: black;
-
 }
 
 nav {
@@ -89,7 +88,7 @@ nav li {
 }
 
 #Title1  {
-    /*display: flex;
+    display: flex;
     justify-content: center;
     width: 270px;
     height: 100px;
@@ -98,7 +97,8 @@ nav li {
     
 }
 
-#AboutMe #Bio  {
+ #Bio  {
+    display: flex;
     padding-left: 40px;
     border-left: solid black 5px;
 }
@@ -109,7 +109,6 @@ nav li {
 
 #Work {
     display: flex;
-    
     padding: 20px;
 }
 
