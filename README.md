@@ -6,5 +6,5 @@ This project is the first rendition of my portfolio. It includes a link to my fi
 
 ## Usage
 
-![screenshot](assets/images/challenge_2_readme.jpeg)
+![screenshot](Assets/images/challenge_2_readme.jpeg)
     
