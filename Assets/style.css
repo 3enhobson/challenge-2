@@ -139,7 +139,8 @@ nav li {
  #Projects #Project1 {
     width: 100%;
     height: 400px;
-    background-image: url(assets/images/Horiseon.jpeg);
+    background-image: url(images/Horiseon.jpeg);
+    
 }
  
 footer {
