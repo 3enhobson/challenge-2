@@ -136,7 +136,7 @@ nav li {
    
 }
 
- #Project1 {
+#Projects #Project1 {
     width: 560px;
     height: 360px;
     background-image: url(./images/Screenshot1.png);
@@ -161,6 +161,14 @@ nav li {
     width: 745px;
     height: 400px;
     background-image: url(./images/Horiseon.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Projects #Project3 {
+    width: 745px;
+    height: 400px;
+    background-image: url(./images/RUN-4-FUN-SS1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
